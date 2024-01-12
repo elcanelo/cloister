@@ -2,7 +2,7 @@
 body {
     padding: 30px;
     padding-top: 10%;
-    background: #FDB4B4;
+    background: white;
     text-align: center;
 }
 img {
@@ -14,6 +14,6 @@ img {
 p {
     display: inline-block;
     margin-left: 10px;
-    font-family: Roboto;
+    font-family: "Open sans";
     vertical-align: middle;
 }

@@ -7,26 +7,27 @@
     </head>
 
     <body>
-        <div id="settingsFlexer">
-            <div id="sitelists">
+        <div>
+            <div>
                 <form id="blacklist" class="sitelist">
-                    <h2>Blacklisted Sites</h2>
+                    <h1>Blacklisted Sites</h1>
                     <div>
                         <select multiple></select>
-                        <input type="button" value="Remove">
+                        <input type="button" value="-">
                     </div>
                     <br>
                     <div>
                         <input type="text" placeholder="Add to blacklist..." autocomplete="off">
-                        <input type="submit" value="Add">
+                        <input type="submit" value="+">
                     </div>
                     <p class="errorField"></p>
                 </form>
+                <br>
                 <form id="whitelist" class="sitelist">
                     <h2>Whitelisted Sites</h2>
                     <div>
                         <select multiple></select>
-                        <input type="button" value="Remove">
+                        <input type="button" value="-">
                     </div>
                     <p class="infotext">
                         Copy your URL carefully!<br />
@@ -36,7 +37,7 @@
                     </p>
                     <div>
                         <input type="text" placeholder="Add to whitelist..." autocomplete="off">
-                        <input type="submit" value="Add">
+                        <input type="submit" value="+">
                     </div>
                     <p class="errorField"></p>
                 </form>

@@ -1,19 +1,19 @@
 {
 
     "manifest_version": 2,
-    "name": "Monastery",
-    "version": "1.3.2",
+    "name": "Cloister",
+    "version": "1.0.0",
     "applications": {
         "gecko": {
-            "id": "monastery@omivore.com",
-            "strict_min_version": "42.0"
+            "id": "el.canelo@gmail.com",
+            "strict_min_version": "121.0"
         }
     },
 
-    "description": "Monastery restricts your browsing session and blocks and limits time spent on a user-supplied blacklist.",
-    "homepage_url": "https://github.com/omivore/monastery",
+    "description": "Cloister is a fork of Monastery that does the same but prettier and with less bugs.",
+    "homepage_url": "https://github.com/elcanelo/cloister",
     "icons": {
-        "48": "icons/monastery.svg"
+        "48": "icons/cloister.png"
     },
 
     "permissions": ["<all_urls>", "tabs", "notifications", "storage"],
@@ -21,8 +21,8 @@
         "scripts": ["background.js"]
     },
     "browser_action": {
-        "default_icon": "icons/monastery.svg",
-        "default_title": "Monastery",
+        "default_icon": "icons/cloister.svg",
+        "default_title": "Cloister",
         "default_popup": "popup/status_panel.html",
         "browser_style": false
     },
